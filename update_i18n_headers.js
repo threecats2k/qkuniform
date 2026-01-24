@@ -30,7 +30,7 @@ const headerTemplate = `    <link rel="stylesheet" href="css/styles.css">
                     <p class="tagline" data-i18n="common.tagline">Chất lượng - Uy tín - Chuyên nghiệp</p>
                 </div>
                 <div class="header-contact">
-                    <a href="tel:0366333168" class="phone-link">📞 <span data-i18n="common.phone">0366 333 168</span></a>
+                    <a href="tel:0355417093" class="phone-link">📞 <span data-i18n="common.phone">0355 417 093</span></a>
                     <a href="contact.html" class="btn btn-primary" data-i18n="common.contactNow">Liên hệ ngay</a>
                 </div>
             </div>

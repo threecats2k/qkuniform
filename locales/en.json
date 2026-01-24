@@ -14,7 +14,7 @@
     },
     "contact": {
       "title": "Contact - Quoc Khanh Uniform | Quote & Consultation",
-      "description": "Contact Quoc Khanh Uniform - Professional uniform manufacturer in Hanoi. Address: No. 3, Group 4, Phuc Loi Ward, Long Bien District, Hanoi. Phone: 0366 333 168"
+      "description": "Contact Quoc Khanh Uniform - Professional uniform manufacturer in Hanoi. Address: No. 3, Group 4, Phuc Loi Ward, Long Bien District, Hanoi. Phone: 0355 417 093"
     },
     "policies": {
       "title": "Policies - Quoc Khanh Uniform | Warranty - Delivery - Return",
@@ -40,7 +40,7 @@
   "common": {
     "logo": "QUOC KHANH UNIFORM",
     "tagline": "Quality - Trust - Professionalism",
-    "phone": "0366 333 168",
+    "phone": "0355 417 093",
     "contactNow": "Contact Now",
     "nav": {
       "home": "Home",
@@ -161,7 +161,7 @@
       "title": "Start Your Uniform Project Today",
       "subtitle": "Contact us for free consultation and detailed quote",
       "contact": "Contact Now",
-      "call": "Call: 0366 333 168"
+      "call": "Call: 0355 417 093"
     }
   },
   "contact": {
@@ -484,7 +484,7 @@
     "ctaTitle": "Need Consultation on Services?",
     "ctaDesc": "Contact us for detailed quote and free consultation",
     "ctaContact": "Contact Now",
-    "ctaCall": "Call: 0366 333 168"
+    "ctaCall": "Call: 0355 417 093"
   },
   "policies": {
     "pageTitle": "Policies",
@@ -681,7 +681,7 @@
     "ctaTitle": "Have Questions About Policies?",
     "ctaDesc": "Contact us for answers to your questions",
     "ctaContact": "Contact Now",
-    "ctaCall": "Call: 0366 333 168"
+    "ctaCall": "Call: 0355 417 093"
   },
   "process": {
     "pageTitle": "Production Process",
@@ -906,7 +906,7 @@
       "title": "Start Your Project Today",
       "desc": "Contact us for consultation and detailed quote",
       "contact": "Contact Now",
-      "call": "Call: 0366 333 168"
+      "call": "Call: 0355 417 093"
     }
   },
   "portfolio": {
@@ -1075,7 +1075,7 @@
       "title": "Want to Become Our Next Client?",
       "desc": "Contact us for consultation and detailed quote",
       "contact": "Contact Now",
-      "call": "Call: 0366 333 168"
+      "call": "Call: 0355 417 093"
     }
   },
   "news": {
@@ -1212,7 +1212,14 @@
       "title": "Need to Contact Us?",
       "desc": "We are ready to consult and support you",
       "contact": "Contact Now",
-      "call": "Call: 0366 333 168"
+      "call": "Call: 0355 417 093"
     }
+  },
+  "error404": {
+    "code": "404",
+    "title": "Page Not Found",
+    "message": "Sorry, the page you are looking for does not exist or has been moved. Please check the URL again or return to the homepage.",
+    "backHome": "Back to Home",
+    "contact": "Contact Support"
   }
 }

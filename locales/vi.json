@@ -14,7 +14,7 @@
     },
     "contact": {
       "title": "Liên Hệ - Quốc Khánh Uniform | Báo Giá & Tư Vấn Đồng Phục",
-      "description": "Liên hệ với Quốc Khánh Uniform - Chuyên sản xuất đồng phục chất lượng cao tại Hà Nội. Địa chỉ: Số 3, Tổ 4, Phường Phúc Lợi, Long Biên, Hà Nội. Điện thoại: 0366 333 168"
+      "description": "Liên hệ với Quốc Khánh Uniform - Chuyên sản xuất đồng phục chất lượng cao tại Hà Nội. Địa chỉ: Số 3, Tổ 4, Phường Phúc Lợi, Long Biên, Hà Nội. Điện thoại: 0355 417 093"
     },
     "policies": {
       "title": "Chính Sách - Quốc Khánh Uniform | Bảo Hành - Giao Hàng - Đổi Trả",
@@ -40,7 +40,7 @@
   "common": {
     "logo": "QUỐC KHÁNH UNIFORM",
     "tagline": "Chất lượng - Uy tín - Chuyên nghiệp",
-    "phone": "0366 333 168",
+    "phone": "0355 417 093",
     "contactNow": "Liên hệ ngay",
     "nav": {
       "home": "Trang chủ",
@@ -161,7 +161,7 @@
       "title": "Bắt Đầu Dự Án Đồng Phục Của Bạn Ngay Hôm Nay",
       "subtitle": "Liên hệ với chúng tôi để nhận tư vấn miễn phí và báo giá chi tiết",
       "contact": "Liên hệ ngay",
-      "call": "Gọi: 0366 333 168"
+      "call": "Gọi: 0355 417 093"
     }
   },
   "contact": {
@@ -484,7 +484,7 @@
     "ctaTitle": "Bạn Cần Tư Vấn Về Dịch Vụ?",
     "ctaDesc": "Liên hệ với chúng tôi để nhận báo giá chi tiết và tư vấn miễn phí",
     "ctaContact": "Liên hệ ngay",
-    "ctaCall": "Gọi: 0366 333 168"
+    "ctaCall": "Gọi: 0355 417 093"
   },
   "policies": {
     "pageTitle": "Chính Sách",
@@ -681,7 +681,7 @@
     "ctaTitle": "Bạn Có Câu Hỏi Về Chính Sách?",
     "ctaDesc": "Liên hệ với chúng tôi để được giải đáp thắc mắc",
     "ctaContact": "Liên hệ ngay",
-    "ctaCall": "Gọi: 0366 333 168"
+    "ctaCall": "Gọi: 0355 417 093"
   },
   "process": {
     "pageTitle": "Quy Trình Sản Xuất",
@@ -906,7 +906,7 @@
       "title": "Bắt Đầu Dự Án Của Bạn Ngay Hôm Nay",
       "desc": "Liên hệ với chúng tôi để được tư vấn và nhận báo giá chi tiết",
       "contact": "Liên hệ ngay",
-      "call": "Gọi: 0366 333 168"
+      "call": "Gọi: 0355 417 093"
     }
   },
   "portfolio": {
@@ -1075,7 +1075,7 @@
       "title": "Bạn Muốn Trở Thành Khách Hàng Tiếp Theo?",
       "desc": "Liên hệ với chúng tôi để được tư vấn và nhận báo giá chi tiết",
       "contact": "Liên hệ ngay",
-      "call": "Gọi: 0366 333 168"
+      "call": "Gọi: 0355 417 093"
     }
   },
   "news": {
@@ -1212,7 +1212,14 @@
       "title": "Bạn Cần Liên Hệ Với Chúng Tôi?",
       "desc": "Chúng tôi sẵn sàng tư vấn và hỗ trợ bạn",
       "contact": "Liên hệ ngay",
-      "call": "Gọi: 0366 333 168"
+      "call": "Gọi: 0355 417 093"
     }
+  },
+  "error404": {
+    "code": "404",
+    "title": "Không Tìm Thấy Trang",
+    "message": "Xin lỗi, trang bạn đang tìm kiếm không tồn tại hoặc đã được di chuyển. Vui lòng kiểm tra lại đường dẫn hoặc quay về trang chủ.",
+    "backHome": "Về Trang Chủ",
+    "contact": "Liên Hệ Hỗ Trợ"
   }
 }
