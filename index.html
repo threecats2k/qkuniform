@@ -1,256 +1,240 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#1a365d">
-    <meta name="format-detection" content="telephone=yes">
-    <title>Quốc Khánh Uniform - Chuyên May Đồng Phục Chất Lượng Cao Tại Hà Nội</title>
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
-    <link rel="apple-touch-icon" href="images/favicon.png">
-    
+    <meta name="theme-color" content="#080b12">
+    <meta name="description" content="Explore Android utilities from QK Store, including GPS tools, file recovery, video downloads, and secure VPN apps.">
+    <title>QK Store | Thoughtful Android Apps</title>
+    <link rel="preconnect" href="https://picsum.photos">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/i18n.js" defer></script>
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <div class="header-top">
-                <div class="logo">
-                    <a href="index.html" style="display: inline-block;">
-                        <img src="images/logo_header.png" alt="QUỐC KHÁNH UNIFORM" style="max-height: 80px; width: auto;">
-                    </a>
-                </div>
-                <div class="header-contact">
-                    <a href="tel:0355417093" class="phone-link">📞 <span data-i18n="common.phone">0355 417 093</span></a>
-                    <a href="contact.html" class="btn btn-primary" data-i18n="common.contactNow">Liên hệ ngay</a>
-                </div>
-            </div>
-            <nav class="navbar">
-                <ul class="nav-menu">
-                    <li><a href="index.html" class="active" data-i18n="common.nav.home">Trang chủ</a></li>
-                    <li><a href="about.html" data-i18n="common.nav.about">Giới thiệu</a></li>
-                    <li><a href="services.html" data-i18n="common.nav.services">Dịch vụ</a></li>
-                    <li><a href="process.html" data-i18n="common.nav.process">Quy trình</a></li>
-                    <li><a href="portfolio.html" data-i18n="common.nav.portfolio">Dự án</a></li>
-                    <li><a href="news.html" data-i18n="common.nav.news">Tin tức</a></li>
-                    <li><a href="policies.html" data-i18n="common.nav.policies">Chính sách</a></li>
-                    <li><a href="contact.html" data-i18n="common.nav.contact">Liên hệ</a></li>
-                </ul>
-                <button class="mobile-menu-toggle" aria-label="Toggle menu" data-i18n-aria-label="common.nav.menu">☰</button>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" data-header>
+        <div class="nav-shell">
+            <a class="brand" href="#top" aria-label="QK Store home">
+                <span>QK Store</span>
+            </a>
+
+            <nav class="desktop-nav" aria-label="Primary navigation">
+                <a href="#apps">Apps</a>
+                <a href="#about">About</a>
+                <a href="#values">Values</a>
+                <a href="#contact">Contact</a>
             </nav>
+
+            <a class="button button-small header-action" href="mailto:qkuniformstore@gmail.com">Email Us</a>
+
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open navigation">
+                <span></span>
+                <span></span>
+            </button>
         </div>
+
+        <nav class="mobile-nav" id="mobile-menu" aria-label="Mobile navigation" hidden>
+            <a href="#apps">Apps</a>
+            <a href="#about">About</a>
+            <a href="#values">Values</a>
+            <a href="#contact">Contact</a>
+            <a href="mailto:qkuniformstore@gmail.com">Email Us</a>
+        </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-overlay"></div>
-        <div class="container">
-            <div class="hero-content">
-                <h1 data-i18n="index.hero.title">Chuyên Gia Đồng Phục Chất Lượng Cao</h1>
-                <p class="hero-subtitle" data-i18n="index.hero.subtitle">Sản xuất - Thiết kế - Gia công đồng phục công ty, học sinh, bảo hộ lao động với tiêu chuẩn quốc tế</p>
-                <div class="hero-buttons">
-                    <a href="services.html" class="btn btn-large btn-primary" data-i18n="index.hero.viewServices">Xem dịch vụ</a>
-                    <a href="contact.html" class="btn btn-large btn-secondary" data-i18n="index.hero.getQuote">Nhận báo giá</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Overview -->
-    <section class="services-overview section">
-        <div class="container">
-            <h2 class="section-title" data-i18n="index.services.title">Dịch Vụ Chính</h2>
-            <p class="section-subtitle" data-i18n="index.services.subtitle">Chúng tôi cung cấp đầy đủ các giải pháp đồng phục cho mọi nhu cầu</p>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">👔</div>
-                    <h3 data-i18n="index.services.corporate.title">Đồng Phục Công Ty</h3>
-                    <p data-i18n="index.services.corporate.desc">Thiết kế và may đồng phục công ty chuyên nghiệp, thể hiện thương hiệu doanh nghiệp một cách ấn tượng</p>
-                    <a href="services.html#corporate" class="service-link" data-i18n="index.services.corporate.detail">Chi tiết →</a>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">🎓</div>
-                    <h3 data-i18n="index.services.student.title">Đồng Phục Học Sinh</h3>
-                    <p data-i18n="index.services.student.desc">Đồng phục học sinh bền đẹp, thoáng mát, phù hợp với tiêu chuẩn giáo dục Việt Nam</p>
-                    <a href="services.html#student" class="service-link" data-i18n="index.services.student.detail">Chi tiết →</a>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">🦺</div>
-                    <h3 data-i18n="index.services.safety.title">Đồng Phục Bảo Hộ</h3>
-                    <p data-i18n="index.services.safety.desc">Đồng phục bảo hộ lao động đạt tiêu chuẩn an toàn, chất lượng cao cho công nhân</p>
-                    <a href="services.html#safety" class="service-link" data-i18n="index.services.safety.detail">Chi tiết →</a>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">🍽️</div>
-                    <h3 data-i18n="index.services.hotel.title">Đồng Phục Nhà Hàng - Khách Sạn</h3>
-                    <p data-i18n="index.services.hotel.desc">Thiết kế đồng phục nhà hàng, khách sạn sang trọng, tạo ấn tượng tốt với khách hàng</p>
-                    <a href="services.html#hotel" class="service-link" data-i18n="index.services.hotel.detail">Chi tiết →</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Why Choose Us -->
-    <section class="why-choose section bg-light">
-        <div class="container">
-            <h2 class="section-title" data-i18n="index.whyChoose.title">Tại Sao Chọn Quốc Khánh Uniform?</h2>
-            <div class="features-grid">
-                <div class="feature-item">
-                    <div class="feature-number">01</div>
-                    <h3 data-i18n="index.whyChoose.exp.title">Kinh Nghiệm Chuyên Sâu</h3>
-                    <p data-i18n="index.whyChoose.exp.desc">Hơn 5 năm kinh nghiệm trong ngành may mặc, hiểu rõ nhu cầu và xu hướng thị trường</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-number">02</div>
-                    <h3 data-i18n="index.whyChoose.quality.title">Chất Lượng Đảm Bảo</h3>
-                    <p data-i18n="index.whyChoose.quality.desc">Sử dụng vải chất lượng cao, công nghệ may hiện đại, đảm bảo độ bền và thẩm mỹ</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-number">03</div>
-                    <h3 data-i18n="index.whyChoose.price.title">Giá Cả Cạnh Tranh</h3>
-                    <p data-i18n="index.whyChoose.price.desc">Giá thành hợp lý, báo giá minh bạch, không phát sinh chi phí ẩn</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-number">04</div>
-                    <h3 data-i18n="index.whyChoose.delivery.title">Giao Hàng Đúng Hẹn</h3>
-                    <p data-i18n="index.whyChoose.delivery.desc">Cam kết giao hàng đúng thời gian, đảm bảo tiến độ sản xuất cho khách hàng</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-number">05</div>
-                    <h3 data-i18n="index.whyChoose.support.title">Hỗ Trợ Tận Tâm</h3>
-                    <p data-i18n="index.whyChoose.support.desc">Đội ngũ tư vấn chuyên nghiệp, hỗ trợ thiết kế và tư vấn mẫu mã miễn phí</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-number">06</div>
-                    <h3 data-i18n="index.whyChoose.warranty.title">Chính Sách Bảo Hành</h3>
-                    <p data-i18n="index.whyChoose.warranty.desc">Bảo hành chất lượng sản phẩm, đổi trả nếu có lỗi từ nhà sản xuất</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Process Overview -->
-    <section class="process-overview section">
-        <div class="container">
-            <h2 class="section-title" data-i18n="index.process.title">Quy Trình Làm Việc</h2>
-            <div class="process-steps">
-                <div class="step-item">
-                    <div class="step-icon">1</div>
-                    <h3 data-i18n="index.process.consult.title">Tư Vấn & Báo Giá</h3>
-                    <p data-i18n="index.process.consult.desc">Tiếp nhận yêu cầu, tư vấn và báo giá chi tiết trong 24h</p>
-                </div>
-                <div class="step-arrow">→</div>
-                <div class="step-item">
-                    <div class="step-icon">2</div>
-                    <h3 data-i18n="index.process.design.title">Thiết Kế Mẫu</h3>
-                    <p data-i18n="index.process.design.desc">Thiết kế mẫu theo yêu cầu, chỉnh sửa đến khi khách hàng hài lòng</p>
-                </div>
-                <div class="step-arrow">→</div>
-                <div class="step-item">
-                    <div class="step-icon">3</div>
-                    <h3 data-i18n="index.process.produce.title">Sản Xuất</h3>
-                    <p data-i18n="index.process.produce.desc">May đo chính xác, kiểm tra chất lượng từng công đoạn</p>
-                </div>
-                <div class="step-arrow">→</div>
-                <div class="step-item">
-                    <div class="step-icon">4</div>
-                    <h3 data-i18n="index.process.deliver.title">Giao Hàng</h3>
-                    <p data-i18n="index.process.deliver.desc">Giao hàng tận nơi, kiểm tra và nghiệm thu sản phẩm</p>
-                </div>
-            </div>
-            <div class="text-center mt-4">
-                <a href="process.html" class="btn btn-primary" data-i18n="index.process.viewDetail">Xem chi tiết quy trình</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Stats Section -->
-    <section class="stats section bg-dark">
-        <div class="container">
-            <div class="stats-grid">
-                <div class="stat-item">
-                    <div class="stat-number">500+</div>
-                    <div class="stat-label" data-i18n="index.stats.projects">Dự án hoàn thành</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number">300+</div>
-                    <div class="stat-label" data-i18n="index.stats.clients">Khách hàng tin tưởng</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number">98%</div>
-                    <div class="stat-label" data-i18n="index.stats.satisfied">Khách hàng hài lòng</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number">5+</div>
-                    <div class="stat-label" data-i18n="index.stats.experience">Năm kinh nghiệm</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="cta section">
-        <div class="container">
-            <div class="cta-content">
-                <h2 data-i18n="index.cta.title">Bắt Đầu Dự Án Đồng Phục Của Bạn Ngay Hôm Nay</h2>
-                <p data-i18n="index.cta.subtitle">Liên hệ với chúng tôi để nhận tư vấn miễn phí và báo giá chi tiết</p>
-                <div class="cta-buttons">
-                    <a href="contact.html" class="btn btn-large btn-primary" data-i18n="index.cta.contact">Liên hệ ngay</a>
-                    <a href="tel:0355417093" class="btn btn-large btn-secondary" data-i18n="index.cta.call">Gọi: 0355 417 093</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <h3 data-i18n="common.logo">QUỐC KHÁNH UNIFORM</h3>
-                    <p data-i18n="common.footer.companyDesc">Công ty TNHH Quốc Khánh Uniform Việt Nam - Chuyên sản xuất và gia công đồng phục chất lượng cao tại Hà Nội</p>
-                    <div class="footer-contact">
-                        <p>📍 <span data-i18n="common.footer.address">Số 3, Tổ 4, Phường Phúc Lợi, Quận Long Biên, Hà Nội</span></p>
-                        <p>📞 <a href="tel:0355417093" data-i18n="common.phone">0355 417 093</a></p>
-                        <p>📧 <a href="mailto:contact@uniform-quockhanh.store" data-i18n="common.footer.email">contact@uniform-quockhanh.store</a></p>
+    <main id="main-content">
+        <section class="hero" id="top">
+            <div class="ambient ambient-one" aria-hidden="true"></div>
+            <div class="ambient ambient-two" aria-hidden="true"></div>
+            <div class="page-shell hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">Independent Android studio</p>
+                    <h1>Useful apps,<br><span>thoughtfully built.</span></h1>
+                    <p class="hero-lede">Simple tools for learning, creating, and getting more from every day.</p>
+                    <div class="button-row">
+                        <a class="button button-primary" href="#apps">Explore Apps</a>
+                        <a class="button button-ghost" href="mailto:qkuniformstore@gmail.com">Email Us</a>
                     </div>
                 </div>
-                <div class="footer-col">
-                    <h4 data-i18n="common.footer.services">Dịch vụ</h4>
-                    <ul>
-                        <li><a href="services.html#corporate" data-i18n="common.footer.corporateUniform">Đồng phục công ty</a></li>
-                        <li><a href="services.html#student" data-i18n="common.footer.studentUniform">Đồng phục học sinh</a></li>
-                        <li><a href="services.html#safety" data-i18n="common.footer.safetyUniform">Đồng phục bảo hộ</a></li>
-                        <li><a href="services.html#hotel" data-i18n="common.footer.hotelUniform">Đồng phục nhà hàng - KS</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4 data-i18n="common.footer.info">Thông tin</h4>
-                    <ul>
-                        <li><a href="about.html" data-i18n="common.nav.about">Giới thiệu</a></li>
-                        <li><a href="process.html" data-i18n="common.nav.process">Quy trình</a></li>
-                        <li><a href="portfolio.html" data-i18n="common.nav.portfolio">Dự án</a></li>
-                        <li><a href="news.html" data-i18n="common.nav.news">Tin tức</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4 data-i18n="common.footer.support">Hỗ trợ</h4>
-                    <ul>
-                        <li><a href="policies.html" data-i18n="common.footer.warrantyPolicy">Chính sách bảo hành</a></li>
-                        <li><a href="policies.html#delivery" data-i18n="common.footer.deliveryPolicy">Chính sách giao hàng</a></li>
-                        <li><a href="policies.html#return" data-i18n="common.footer.returnPolicy">Chính sách đổi trả</a></li>
-                        <li><a href="contact.html" data-i18n="common.nav.contact">Liên hệ</a></li>
-                        <li><a href="company-info.html" data-i18n="common.footer.companyInfo">Thông tin doanh nghiệp</a></li>
-                    </ul>
+
+                <div class="hero-visual" aria-label="A selection of QK Store app icons">
+                    <div class="orbit orbit-large" aria-hidden="true"></div>
+                    <div class="orbit orbit-small" aria-hidden="true"></div>
+                    <div class="visual-core" aria-hidden="true">
+                        <span class="core-wordmark">QK Store</span>
+                    </div>
+                    <img class="floating-icon icon-one" src="images/gps-geotag.png" alt="GPS Geotag app icon" width="256" height="256">
+                    <img class="floating-icon icon-two" src="images/aura-recover.png" alt="AuraRecover app icon" width="256" height="256">
+                    <img class="floating-icon icon-three" src="images/vpn-secure.png" alt="VPN Secure app icon" width="256" height="256">
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; <span data-i18n="common.footer.copyright">2024 Công ty TNHH Quốc Khánh Uniform Việt Nam. MST: 0108735264</span></p>
+        </section>
+
+        <section class="studio-strip" aria-label="Studio details">
+            <div class="page-shell studio-facts">
+                <div><strong>5 apps</strong><span>Available catalog</span></div>
+                <div><strong>Android utilities</strong><span>Practical tools for daily use</span></div>
+                <div><strong>Google Play</strong><span>Published by QK Store</span></div>
+            </div>
+        </section>
+
+        <section class="section apps-section" id="apps">
+            <div class="page-shell">
+                <div class="section-heading reveal">
+                    <h2>Apps for everyday moments</h2>
+                    <p>Explore the current QK Store catalog of location, recovery, download, and privacy utilities.</p>
+                </div>
+
+                <div class="app-grid">
+                    <article class="app-card app-featured reveal">
+                        <div class="app-topline">
+                            <img src="images/gps-geotag.png" alt="GPS Geotag - Live Earth Map app icon" width="90" height="90" loading="lazy">
+                            <span class="app-category">Maps</span>
+                        </div>
+                        <div>
+                            <h3>GPS Geotag - Live Earth Map</h3>
+                            <p>Explore live maps and add location context to photos for clearer travel records.</p>
+                        </div>
+                        <span class="app-status">On Google Play</span>
+                    </article>
+
+                    <article class="app-card app-tinted reveal">
+                        <div class="app-topline">
+                            <img src="images/aura-recover.png" alt="AuraRecover: File Recovery Pro app icon" width="90" height="90" loading="lazy">
+                            <span class="app-category">Recovery</span>
+                        </div>
+                        <div>
+                            <h3>AuraRecover: File Recovery Pro</h3>
+                            <p>Recover and organize deleted photos, videos, and files from one focused workspace.</p>
+                        </div>
+                        <span class="app-status">On Google Play</span>
+                    </article>
+
+                    <article class="app-card reveal">
+                        <div class="app-topline">
+                            <img src="images/vpn-secure.png" alt="VPN Secure - Unlimited Proxy app icon" width="90" height="90" loading="lazy">
+                            <span class="app-category">Security</span>
+                        </div>
+                        <div>
+                            <h3>VPN Secure - Unlimited Proxy</h3>
+                            <p>Connect through a simple VPN experience designed for quick, private browsing.</p>
+                        </div>
+                        <span class="app-status">On Google Play</span>
+                    </article>
+
+                    <article class="app-card app-wide app-tinted reveal">
+                        <div class="app-topline">
+                            <img src="images/quicksave.png" alt="QuickSave: Video Downloader app icon" width="90" height="90" loading="lazy">
+                            <span class="app-category">Video</span>
+                        </div>
+                        <div>
+                            <h3>QuickSave: Video Downloader</h3>
+                            <p>Save online videos for convenient offline viewing with clear download controls.</p>
+                        </div>
+                        <span class="app-status">On Google Play</span>
+                    </article>
+
+                    <article class="app-card app-full reveal">
+                        <div class="app-topline">
+                            <img src="images/fluxvpn.png" alt="FluxVPN: Secure VPN Proxy app icon" width="90" height="90" loading="lazy">
+                            <span class="app-category">Security</span>
+                        </div>
+                        <div>
+                            <h3>FluxVPN: Secure VPN Proxy</h3>
+                            <p>A streamlined VPN utility for secure connections on everyday networks.</p>
+                        </div>
+                        <span class="app-status">On Google Play</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section about-section" id="about">
+            <div class="page-shell about-grid">
+                <div class="about-visual reveal" aria-hidden="true">
+                    <div class="about-ring ring-one"></div>
+                    <div class="about-ring ring-two"></div>
+                    <div class="about-ring ring-three"></div>
+                    <div class="about-wordmark">QK<span>Store</span></div>
+                </div>
+                <div class="about-copy reveal">
+                    <p class="eyebrow">About QK Store</p>
+                    <h2>Small apps with a clear purpose</h2>
+                    <p>QK Store is an independent mobile studio focused on useful Android experiences. Each product starts with a real everyday need and removes everything that gets in the way.</p>
+                    <p>We care about speed, approachable design, and thoughtful details that make an app feel natural from the first tap.</p>
+                    <div class="capability-list" aria-label="Capabilities">
+                        <span>Android development</span>
+                        <span>Product design</span>
+                        <span>Mobile utilities</span>
+                        <span>Creative tools</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section values-section" id="values">
+            <div class="page-shell">
+                <div class="section-heading compact reveal">
+                    <h2>Built around what matters</h2>
+                    <p>Clear decisions guide every product from the first sketch to every update.</p>
+                </div>
+
+                <div class="values-grid">
+                    <article class="value-card value-large reveal">
+                        <span class="value-symbol" aria-hidden="true">01</span>
+                        <h3>Fast by default</h3>
+                        <p>Quick launches, responsive screens, and careful resource use across everyday devices.</p>
+                    </article>
+                    <article class="value-card value-accent reveal">
+                        <span class="value-symbol" aria-hidden="true">02</span>
+                        <h3>Easy to understand</h3>
+                        <p>Useful controls, clear language, and no unnecessary steps.</p>
+                    </article>
+                    <article class="value-card value-photo reveal">
+                        <img src="https://picsum.photos/seed/qk-mobile-craft/900/700" alt="Abstract placeholder artwork representing mobile product craft" width="900" height="700" loading="lazy">
+                        <div class="value-photo-copy">
+                            <span class="value-symbol" aria-hidden="true">03</span>
+                            <h3>Made with care</h3>
+                        </div>
+                    </article>
+                    <article class="value-card reveal">
+                        <span class="value-symbol" aria-hidden="true">04</span>
+                        <h3>Privacy respected</h3>
+                        <p>Collect less, explain clearly, and protect the information an app needs.</p>
+                    </article>
+                    <article class="value-card value-wide reveal">
+                        <span class="value-symbol" aria-hidden="true">05</span>
+                        <h3>Improved through real feedback</h3>
+                        <p>Updates respond to how people actually use the product, not a crowded roadmap.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+            <div class="page-shell contact-panel reveal">
+                <div>
+                    <h2>Have an app idea?</h2>
+                    <p>Questions, feedback, and collaboration ideas are always welcome.</p>
+                </div>
+                <div class="contact-action">
+                    <a class="contact-email" href="mailto:qkuniformstore@gmail.com">qkuniformstore@gmail.com</a>
+                    <a class="button button-primary" href="mailto:qkuniformstore@gmail.com">Email Us</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="page-shell footer-row">
+            <a class="brand footer-brand" href="#top" aria-label="QK Store home">
+                <span>QK Store</span>
+            </a>
+            <p>&copy; <span data-year></span> QK Store. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#apps">Apps</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
             </div>
         </div>
     </footer>
